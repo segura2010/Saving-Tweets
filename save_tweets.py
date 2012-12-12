@@ -4,7 +4,7 @@ import urllib2
 import sys
 
 if len(sys.argv) != 3:
-  print "================== ERROR =================="
+        print "================== ERROR =================="
         print "\nDebes indicar como primer argumento el nombre del twittero sin '@' y como segundo argumento el numero de tweets a guardar";
 	print "\nEjemplo: python save_tweets.py nombreusuario 40"
 	print "\nEl ejemplo anterior guardara los ultimos 40 tweets del usuario 'nombreusuario'"
